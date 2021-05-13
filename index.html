@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Manicomio</title>
+
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+
+	<link rel="stylesheet" href="styles/styles.css">
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<script src="js/script.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</head>
+<body>
+	
+	
+	
+
+	
+
+
+	<header class="contenedorSeccionExterior overflow">
+
+
+		<div id="contenedorSlideshow">
+			<div id="slideshowItem1" class="slideshowItems"></div>
+			<div id="slideshowItem2" class="slideshowItems"></div>
+			<div id="slideshowItem3" class="slideshowItems"></div>
+			<div id="slideshowItem4" class="slideshowItems"></div>
+			<div id="slideshowItem5" class="slideshowItems"></div>
+			<div id="slideshowItem6" class="slideshowItems"></div>
+		
+		</div>
+		
+		<nav id="contenedorMenu">
+			<ul id="menuIzquierda" class=" menu">
+				<li class="elementoMenu"><a class="enlaceMenu" href="#encabezado">Inicio</a></li>
+				<li class="elementoMenu"><a class="enlaceMenu" href="#historias">Historias</a>
+
+					<ul id="submenu">
+						<li class="elementoSubmenu" id="elementoSubmenuHabitacion"><a href="#historias">Habitación</a></li>
+						<li class="elementoSubmenu" id="elementoSubmenuHospital"><a href="#historias">Hospital</a></li>
+						<li class="elementoSubmenu" id="elementoSubmenuSecuestro"><a href="#historias">Secuestro</a></li>
+					</ul>
+
+				</li>
+				<li class="elementoMenu"><a class="enlaceMenu" href="#galeria">Galeria</a></li>
+			</ul>
+			<a href="" class="height:100%">
+				<img src="img/inicio/logo/logo_manicomio.png" id="logo">
+			</a>
+			<ul id="menuDerecha" class="overflow menu">
+				<li class="elementoMenu"><a class="enlaceMenu" href="#faq">Faq</a></li>
+				<li class="elementoMenu"><a class="enlaceMenu" href="#reservas">Reservas</a></li>
+				<li class="elementoMenu"><a class="enlaceMenu" href="#contacto">Contacto</a></li>
+			</ul>
+		</nav>
+		<div id="heroImage" class="contenedorSeccionInterior">
+			<h1 id="tituloEncabezado" class="centradoTexto">Manicomio</h1>
+			<h2 id="subtituloEncabezado" class="centradoTexto">Si no encuentras la salida, te volveras loco</h2>
+		</div>
+
+	</header>
+
+
+	
+
+
+	<section id="historias" class="contenedorSeccionExterior">
+		
+		<div class="contenedorSeccionInterior overflow">
+
+			<h2 data-aos="fade-up" data-aos-duration="1300" class="tituloSeccion centradoTexto">Historias</h2>
+
+			<div id="contenedorPestanasHistorias" class="overflow">
+				
+				<p id="habitacion" class="etiquetasPestanasHistorias centradoTexto pestanaHistoriaActiva">Habitacion 206</p>
+				<p id="hospital" class="etiquetasPestanasHistorias centradoTexto">Hospital</p>
+				<p id="fantasma" class="etiquetasPestanasHistorias centradoTexto">Secuestro</p>
+
+			</div>
+
+			<div id="contenedorHabitacion" class="contenedorHistorias">
+				
+
+				<div id="contenedorVideoDescripcionHistorias" class="overflow">
+
+					<div id="video">
+						<video src="videos/habitacion.mp4" controls poster="img/historias/posterVideos/historiaHabitacion.jpg"></video>
+					</div>
+					
+					<div id="descripcionHistorias" >
+						<h3 class="tituloHistoria">Habitacion 206</h3>
+						<p class="contenidoHistoria">¿Pensasteis alguna vez que estariais en un lugar como este?. <br>				
+						Supera las pruebas para encontrar la llave que os permita escapar y recuperar vuestra libertad. 
+					</p>	
+					</div>
+
+
+				</div>
+
+				<div id="contenedorCaracteristicasHistorias">
+					
+					<div class="centradoTexto" >
+
+						<img src="img/historias/reloj.svg">
+						<p>50 minutos</p>
+
+					</div>
+
+					<div class="centradoTexto">
+
+						<img src="img/historias/numeroPersonas4.svg">
+						<p>4 jugadores</p>
+						
+					</div>
+
+					<div class="centradoTexto">
+                        
+                        <div id="caracteristicaHistoria">
+                           <img src="img/historias/dificultadIndicador.svg" id="indicadorIconoDificultadHistorias" class="indicadorDificultad">
+						    <img src="img/historias/dificultad.svg"> 
+                        </div>
+                        
+						<p>Dificultad</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+			<div id="contenedorHospital" class="contenedorHistorias">
+				
+
+				<div id="contenedorVideoDescripcionHistorias" class="overflow">
+
+					<div id="video">
+						<video src="videos/hospital.mp4"  controls poster="img/historias/posterVideos/historiaHospital.jpg"></video>
+					</div>
+					
+					<div id="descripcionHistorias">
+						<h3 class="tituloHistoria">El hospital</h3>
+						<p class="contenidoHistoria">Se oyen pisadas... <br>				
+						Cada vez esta más cerca.  <br>
+						Te das cuenta que estas en un sanatorio mental y has de salir lo antes posible. <br>
+						¿Lo conseguirás?
+					</p>	
+					</div>
+
+
+				</div>
+
+				<div id="contenedorCaracteristicasHistorias">
+					
+					<div class="centradoTexto" >
+
+						<img src="img/historias/reloj.svg">
+						<p>60 minutos</p>
+
+					</div>
+
+					<div class="centradoTexto">
+
+						<img src="img/historias/numeroPersonas6.svg">
+						<p>6 jugadores</p>
+						
+					</div>
+
+					<div class="centradoTexto">
+
+						<div id="caracteristicaHistoria">
+                           <img src="img/historias/dificultadIndicador.svg" id="indicadorIconoDificultadHistorias" class="indicadorDificultad">
+						    <img src="img/historias/dificultad.svg"> 
+                        </div>
+						<p>Dificultad</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			
+
+			<div id="contenedorFantasma" class="contenedorHistorias">
+				
+
+				<div id="contenedorVideoDescripcionHistorias" class="overflow">
+
+					<div id="video">
+						<video src="videos/secuestro.mp4" controls poster="img/historias/posterVideos/historiaSecuestro.jpg"></video>
+					</div>
+					
+					<div id="descripcionHistorias">
+						<h3 class="tituloHistoria">Secuestro</h3>
+						<p class="contenidoHistoria">Estais desorientados. <br>				
+						Has sido secuestrados misteriosamente en un edificio abandonado. <br>
+						Dispones de 1 hora para poder salir antes de que te atrape una fuerza misteriosa.
+					</p>	
+					</div>
+
+
+				</div>
+
+				<div id="contenedorCaracteristicasHistorias">
+					
+					<div class="centradoTexto" >
+
+						<img src="img/historias/reloj.svg">
+						<p>40 minutos</p>
+
+					</div>
+
+					<div class="centradoTexto">
+
+						<img src="img/historias/numeroPersonas2.svg">
+						<p>2 jugadores</p>
+						
+					</div>
+
+					<div class="centradoTexto">
+
+						<div id="caracteristicaHistoria">
+                           <img src="img/historias/dificultadIndicador.svg" id="indicadorIconoDificultadHistorias" class="indicadorDificultad">
+						    <img src="img/historias/dificultad.svg"> 
+                        </div>
+						<p>Dificultad</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+	</section>
+
+
+	<section  class="parallax-window" data-parallax="scroll" data-image-src="img/galeria/Fondo-Galeria.jpg" class="contenedorSeccionExterior">
+		
+		<div class="contenedorSeccionInterior overflow">
+			
+				<h2 data-aos="fade-up" data-aos-duration="1300" class="tituloSeccion centradoTexto">Galeria</h2>
+				
+				
+				<div id="contenedorPestanasGaleriaFiltro">
+				    
+				    <button id="allPestanas" class="pestanasGaleriaFiltro">Todas</button>
+				    <button id="habitacionPestanasFiltro" class="pestanasGaleriaFiltro">Habitacion 206</button>
+				    <button id="hospitalPestanasFiltro" class="pestanasGaleriaFiltro">Hospital</button>
+				    <button id="secuestroPestanasFiltro" class="pestanasGaleriaFiltro">Secuestro</button>
+				    
+				</div>
+				
+				<div id="imagenesGaleria">
+
+                    <img src="img/galeria/hospital/enfermeraHospital.jpg" class="imagenGaleria hospital">            
+					<img src="img/galeria/secuestro/secuestroVentana.jpg" class="imagenGaleria secuestro">
+					<img src="img/galeria/room/carcelRoom.jpg" class="imagenGaleria habitacion">
+					<img src="img/galeria/hospital/pasilloHospital.jpg" class="imagenGaleria hospital">
+					<img src="img/galeria/room/pasilloRoom.jpg" class="imagenGaleria habitacion" >
+					<img src="img/galeria/secuestro/secuestroAsesino.jpg" class="imagenGaleria secuestro">
+					<img src="img/galeria/hospital/entradaHospital.jpg" class="imagenGaleria hospital">
+					<img src="img/galeria/secuestro/secuestroHabitacion.jpg" class="imagenGaleria secuestro">
+					<img src="img/galeria/room/room.jpg" class="imagenGaleria habitacion">
+
+				</div>
+
+		</div>
+
+
+	<div id="modalLightboxGaleriaFondo">
+
+  		<div id="modalLightboxGaleria">
+
+  			<div id="imageToShow">
+
+  				<div id="ImageActual">
+  					
+  				</div>
+
+  				<div id="barraNavegacionGaleria">
+  				
+	  				<img src="img/galeria/hospital/enfermeraHospital.jpg" id="primeraFoto" class="imagenNavegacionGaleria">
+					<img src="img/galeria/secuestro/secuestroVentana.jpg" class="imagenNavegacionGaleria">
+					<img src="img/galeria/room/carcelRoom.jpg" class="imagenNavegacionGaleria">
+					<img src="img/galeria/hospital/pasilloHospital.jpg" class="imagenNavegacionGaleria">
+					<img src="img/galeria/room/pasilloRoom.jpg" class="imagenNavegacionGaleria">
+					<img src="img/galeria/secuestro/secuestroAsesino.jpg" class="imagenNavegacionGaleria">
+					<img src="img/galeria/hospital/entradaHospital.jpg" class="imagenNavegacionGaleria">
+					<img src="img/galeria/secuestro/secuestroHabitacion.jpg" class="imagenNavegacionGaleria">
+					<img src="img/galeria/room/room.jpg" class="imagenNavegacionGaleria">
+
+
+  			</div>
+
+  				
+  		</div>
+    		
+			<button id="botonIzquierdo" class="buttonsLightBox" onclick="previousImage()">
+  				<i class="fas fa-arrow-left"></i>
+  			</button>
+  			<button id="botonDerecho" class="buttonsLightBox" onclick="nextImage()">
+  				<i class="fas fa-arrow-right"></i>
+  			</button>
+  		</div>
+
+
+	</div>
+
+	</section>
+
+
+
+
+
+	<section id="faq" class="contenedorSeccionExterior">
+		
+		<div class="contenedorSeccionInterior overflow">
+			
+			<h2 data-aos="fade-up" data-aos-duration="1300" class="tituloSeccion">Preguntas Frecuentes</h2>
+
+			<div id="preguntasFrecuentes">
+				
+
+					
+
+					<div>
+                   
+					   <h3 class="preguntas">¿A partir de que edad se puede jugar?</h3>					           
+					   <p class="respuestas centradoTexto">Se puede jugar a partir de los 18 años.</p>
+						
+					</div>
+
+					<div>
+						<h3 class="preguntas ">¿Se puede abandonar la partida una vez iniciada?</h3>
+						<p class="respuestas centradoTexto">Si, en caso de que sea necesario.</p>
+					</div>
+					
+
+					<div>
+						<h3 class="preguntas">¿Con cuanta anticipacion tenemos que llegar? </h3>
+						<p class="respuestas centradoTexto">Es aconsejable llegar 15 minutos antes.</p>
+					</div>
+					
+
+					<div>
+						<h3 class="preguntas">¿Como cancelo la reserva?</h3>
+						<p class="respuestas centradoTexto">A través de nuestra seccion Contacto.</p>
+					</div>
+					
+
+			</div>
+
+		</div>
+
+
+	</section>
+	<section class="parallax-window" data-parallax="scroll" data-image-src="img/reservas/fondo-reservas.jpg" data-speed="0.5" class="contenedorSeccionExterior">
+		
+		<div class="contenedorSeccionInterior overflow">
+			
+			<h2 data-aos="fade-up" data-aos-duration="1300"  class="tituloSeccion centradoTexto">Reservas</h2>
+
+			<div id="contenedorFormularioReservas">
+				
+
+				<form  action="" id="formularioReservas">
+
+					<table>
+						<tr>
+							<th>
+								<label>Nombre</label>
+							</th>
+						    <td><input type="text" placeholder="Escribe tu nombre" id="nombreReservas" required></td>
+						</tr>
+
+						<tr>
+							<th>
+								<label>Nº Personas</label>
+							</th>
+						    <td>
+						    	<input type="number" min="1" max="6" id="numeroPersonasReservas" required>
+						    </td>
+						</tr>
+
+						<tr>
+							<th>
+								<label>Fecha</label>
+							</th>
+						    <td><input type="date" id="fechaReservas" required></td>
+						</tr>
+
+						<tr>
+							<th>
+								<label>Horario</label>
+							</th>
+						    <td>
+						    	<select  id="horarioReservas" >
+						    		<option value="12:00" selected>12:00</option>
+						    		<option value="14:00">14:00</option>
+						    		<option value="18:00">18:00</option>
+						    		<option value="20:00">20:00</option>
+						    	</select>
+						    </td>
+						</tr>
+
+						<tr>
+							<th></th>
+						    <td><input type="submit" value="Reservar" id="botonReservas" onclick="modalFormulario()"></td>
+						</tr>
+						
+					</table>
+					
+
+
+				</form>
+
+				
+
+
+
+			</div>
+
+		</div>
+
+		<div id="modalReservasFondo">
+  					<div id="modalReservas">
+    					<div id="imagenModal" class="modalContenido"></div>
+    					<div id="fondoModalContenidoReservas" class="modalContenido">
+
+    						<div id="modalContenidoReservasTop">
+    							<h1 id="tituloModalReservas" class="centradoTexto"></h1>
+    							
+    						</div>
+    						<div id="modalContenidoReservasDown">
+    							<p id="mensajeConfirmacionReserva"></p>
+    							<p id="mensajeDatosReserva"></p>
+    							<button id="cerrarModal">Aceptar</button>
+    							
+    						</div>
+    						
+    	
+    	
+
+    					</div>
+  					</div>
+		</div>
+	</section>
+
+	<section id="contacto" class="contenedorSeccionExterior">
+		
+		<div class="contenedorSeccionInterior overflow">
+				
+			<h2 data-aos="fade-up" data-aos-duration="1300" class="tituloSeccion centradoTexto">Contacto</h2>
+
+			<address class="contenedorDatosContacto">
+				
+				<div class="datosContacto">
+					
+					<span id="iconoTelefono"></span>
+					<span>(+34) 696618615</span>
+
+				</div>
+
+				<div class="datosContacto">
+					
+					<span id="iconoEmail"></span>
+					<span>manicomio@gmail.com</span>
+
+				</div>
+
+				<div class="datosContacto">
+					
+					<span id="iconoUbicacion"></span>
+					<span>Avenida Diagonal 432 4º3</span>
+
+				</div>
+
+
+			</address>
+
+			<div class="contenedorDatosContacto">
+				<form action="" id="formularioContacto">
+					<table>
+						<tr>
+							<th>
+								<label for="nombreContacto">Nombre</label>
+							</th>
+							<td>
+								<input id="nombreContacto" type="text" placeholder="Escribe tu nombre" name="nombre">
+							</td>
+						</tr>
+
+						<tr>
+							<th>
+								<label for="emailContacto">Email</label>
+							</th>
+							<td>
+								<input id="emailContacto" type="email" placeholder="Escribe tu email" name="email">
+							</td>
+						</tr>
+
+						<tr>
+							<th>
+								<label for="telefonoContacto">Teléfono</label>
+							</th>
+							<td>
+								<input id="telefonoContacto" type="tel" placeholder="Escribe tu teléfono" name="telefono">
+							</td>
+						</tr>
+
+						<tr>
+							<th id="mensajeCentradoVertical">
+								<label for="mensajeContacto">Mensaje</label>
+							</th>
+							<td>
+								<textarea name="mensaje" id="mensajeContacto" rows="10"></textarea>
+							</td>
+						</tr>
+						
+						<tr>
+							<th></th>
+							<td>
+								
+								<input type="submit" value="Enviar datos" id="botonContacto">
+							</td>
+						</tr>
+
+					</table>
+				</form>
+			</div>
+
+
+		</div>
+
+
+	</section>
+
+
+
+
+
+
+	<footer id="footer">
+
+
+		<div id="contenedorMapa-RS" class="contenedorSeccionInterior">
+			
+			<div id="itemMapa-RS">
+
+				<!-- Agregamos un mapa de google Maps en forma de ventana/marco -->
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5986.928603051732!2d2.1408568660928764!3d41.38572213461337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4987ed26a1683%3A0xae4c09c6ee9f26a!2sC%C3%A1rcel%20Modelo%20de%20Barcelona!5e0!3m2!1ses!2ses!4v1616748336635!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+			</div>
+
+
+			<div id="itemMapa-RS">
+
+						
+					<div class="contenedorRedSocialTooltip">
+						<div  id="instagram" href="#" class="fab fa-instagram centradoTexto">
+
+							
+						</div>
+
+						<div class="tooltipRS">@manicomio</div>
+
+
+					</div>
+
+					<div class="contenedorRedSocialTooltip">
+						<div  id="facebook" href="#" class="fab fa-facebook centradoTexto">
+
+							
+						</div>
+
+						<div class="tooltipRS">/manicomio</div>
+
+
+					</div>
+					<div class="contenedorRedSocialTooltip">
+						<div  id="twitter" href="#" class="fab fa-twitter centradoTexto">
+
+							
+						</div>
+
+						<div class="tooltipRS">#manicomio</div>
+
+
+					</div>
+			</div>
+
+
+
+		</div>
+
+	</footer>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="paralax/parallax.js"></script>
+
+<script>
+    
+	setInterval(Slideshow,5000);
+
+	ModalLightBox();
+    
+	Pestanas();
+    
+    pestanasGaleriaFiltro();
+    
+	acordeon();
+    
+	AOS.init();
+    
+	ScrollHighlightingMenu();
+    
+	tooltipRS();
+
+
+
+</script>
+
+</html>
